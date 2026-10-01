@@ -1,0 +1,107 @@
+[
+  {
+    "key": "halloween-svg-bundle",
+    "title": "PIPELINE TEST ONLY - Halloween SVG bundle (not a recommendation)",
+    "buyer": "",
+    "production": "",
+    "time_to_launch": "",
+    "distribution": "",
+    "differentiation": "",
+    "risks": [
+      "Test record: evidence is third-party blog claims, no marketplace page was observed"
+    ],
+    "falsification": [
+      "Newer (<12 month) listings with visible sales in a live Etsy search"
+    ],
+    "price_low": 3.0,
+    "price_high": 15.0,
+    "platform": "etsy",
+    "production_cost": 0.0,
+    "status": "INSUFFICIENT EVIDENCE - core gaps: search_interest, buyer_demand",
+    "unknown": [
+      "search_interest",
+      "buyer_demand",
+      "customer_pain",
+      "competition",
+      "differentiation"
+    ],
+    "econ": {
+      "price": 9.0,
+      "platform_fees": 1.3,
+      "production_cost": 0.0,
+      "net_per_sale": 7.7,
+      "rows": [
+        {
+          "target": 100,
+          "sales_needed": 13
+        },
+        {
+          "target": 500,
+          "sales_needed": 65
+        },
+        {
+          "target": 1000,
+          "sales_needed": 130
+        },
+        {
+          "target": 5000,
+          "sales_needed": 650
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "opportunity": "halloween-svg-bundle",
+        "dimension": "timing",
+        "label": "FACT",
+        "claim": "A search-result summary says Halloween-adjacent products peak in September/early October and sellers starting October optimization are late.",
+        "source_url": "https://www.insightagent.app/trends/halloween",
+        "collected_at": "2026-10-01",
+        "source_name": "insightagent.app (via web search snippet)",
+        "provenance": "THIRD_PARTY",
+        "value": "",
+        "adapter": "local_inbox",
+        "id": "eaf05de007"
+      },
+      {
+        "opportunity": "halloween-svg-bundle",
+        "dimension": "price",
+        "label": "FACT",
+        "claim": "Digital Halloween products reported at $3-$15.",
+        "source_url": "https://www.etsy.com/market/trending_2026_digital_products",
+        "collected_at": "2026-10-01",
+        "source_name": "web search snippet",
+        "provenance": "THIRD_PARTY",
+        "value": "",
+        "adapter": "local_inbox",
+        "id": "8811d18e20"
+      },
+      {
+        "opportunity": "halloween-svg-bundle",
+        "dimension": "purchase_evidence",
+        "label": "FACT",
+        "claim": "One seller reportedly hit 1,200 sales on a single Halloween tumbler wrap listing (age of listing unknown).",
+        "source_url": "https://community.etsy.com/forum/etsy-success-300/topic/celebrate-your-shop-milestones-august-2026-187634/",
+        "collected_at": "2026-10-01",
+        "source_name": "Etsy community (via web search snippet)",
+        "provenance": "THIRD_PARTY",
+        "value": "",
+        "adapter": "local_inbox",
+        "id": "17766cf3db"
+      },
+      {
+        "opportunity": "halloween-svg-bundle",
+        "dimension": "new_entrant",
+        "label": "FACT",
+        "claim": "New sellers report no first sale after 9-10 days and one after 5 months (anecdotal, mixed signal).",
+        "source_url": "https://community.etsy.com/forum/etsy-success-300/topic/celebrate-your-shop-milestones-august-2026-187634/",
+        "collected_at": "2026-10-01",
+        "source_name": "Etsy community (via web search snippet)",
+        "provenance": "THIRD_PARTY",
+        "value": "",
+        "adapter": "local_inbox",
+        "id": "a254836df4"
+      }
+    ]
+  }
+]

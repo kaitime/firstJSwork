@@ -1,0 +1,20 @@
+{
+  "user_agent": "commerce-intel-agent/0.1 (personal research; respects robots.txt)",
+  "min_seconds_between_requests": 2.0,
+  "cache_ttl_hours": 24,
+  "adapters": {
+    "local_inbox": {"enabled": true},
+    "suggest": {"enabled": true, "endpoint": "https://completion.amazon.com/api/2017/suggestions?mid=ATVPDKIKX0DER&alias=aps&prefix={q}"}
+  },
+  "fees": {
+    "_note": "ASSUMPTIONS - verify against current marketplace fee pages before relying on them",
+    "etsy": {"listing_fee": 0.20, "transaction_pct": 6.5, "payment_pct": 3.0, "payment_fixed": 0.25},
+    "gumroad": {"pct": 10.0, "fixed": 0.0},
+    "payhip_free": {"pct": 5.0, "fixed": 0.0}
+  },
+  "models": {
+    "_note": "Roles are swappable. 'none' = rule-based only. 'manual' = emit a prompt file for any authenticated AI environment.",
+    "synthesis": "manual", "extraction": "none", "vision": "none"
+  },
+  "revenue_targets": [100, 500, 1000, 5000]
+}
